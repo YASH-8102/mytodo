@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My todo List</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Schoolbell&display=swap" rel="stylesheet">
+    
+</head>
+
+<body onload="getlocalstorage()">
+    <div>
+        <h1 class="title"><strong> MY To-Do Portel</strong></h1>
+    </div>
+
+    <main> 
+        <div class="searchbox" >
+            <i class="fa fa-search"></i> <input id="s1" type="text" placeholder="Search your task">
+        </div>
+
+        <div class="addtask" id="add1">
+            <div class="addtask1">
+            <i class="fa fa-plus"></i><input id="a1" type="text"  placeholder="Add your task here">
+            </div>
+
+            <div  class="butt">
+                <button id='b1' onclick="Addtask()">Add Task</button>
+           </div>
+        </div>
+
+        
+
+<div class="listblock" >
+    <h2>Task List</h2>
+        <ul class="list" id="l1">
+    </ul>
+</div>
+
+    <div class="dltdiv">
+        <button id="b1" onclick="deleteItem()"><i class="fa fa-remove" ></i>Delete Task</button>
+        <button id="b2" onclick="deleteallItem()"><i class="fa fa-trash" ></i>Delete all Tasks</button>
+    </div>
+ </main>
+</body>
+<script src="scrypt.js"></script>
+</html>

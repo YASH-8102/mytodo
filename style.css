@@ -1,0 +1,434 @@
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body {
+    line-height: 1;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+nav ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+
+/* change colours to suit your needs */
+
+ins {
+    background-color: #ff9;
+    color: #000;
+    text-decoration: none;
+}
+
+
+/* change colours to suit your needs */
+
+mark {
+    background-color: #ff9;
+    color: #000;
+    font-style: italic;
+    font-weight: bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title],
+dfn[title] {
+    border-bottom: 1px dotted;
+    cursor: help;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* change border colour to suit your needs */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #cccccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+input,
+select {
+    vertical-align: middle;
+}
+
+
+/*yn*/
+
+main {
+    vertical-align: middle;
+}
+
+* {
+    font-family: 'Kaushan Script', cursive;
+    outline: none;
+    list-style: none;
+}
+
+body {
+    background: #1e1e1e;
+}
+
+input {
+    font-size: 27px;
+    border: none;
+}
+
+h1 {
+    margin: 20px 0px;
+}
+
+
+/*my to do title*/
+
+.title {
+    font-weight: 700;
+    font-size: 60px;
+    text-align: center;
+    color: aliceblue;
+}
+
+
+/*search box*/
+
+main .searchbox {
+    background-color: white;
+    width: 95%;
+    height: 50px;
+    padding-top: 10px;
+    margin: 0 auto;
+    border-radius: 5px;
+    border: 5px solid #0080c0;
+    text-align: center;
+}
+
+main .searchbox i {
+    vertical-align: middle;
+    padding-left: 10px;
+    font-size: 25px;
+}
+
+main .searchbox input {
+    padding-left: 10px;
+    width: 90%;
+    height: 40px;
+    vertical-align: middle;
+}
+
+
+/*add task box*/
+
+.addtask {
+    display: block;
+    width: 75%;
+    text-align: center;
+    margin: 40px auto;
+}
+
+.addtask1 {
+    background-color: white;
+    border-radius: 5px;
+    border: 5px solid #0080c0;
+    height: 50px;
+    vertical-align: middle;
+    padding-top: 10px;
+}
+
+.addtask i {
+    vertical-align: middle;
+    padding-left: 10px;
+    font-size: 25px;
+}
+
+.addtask input {
+    padding-left: 10px;
+    width: 90%;
+    height: 40px;
+    vertical-align: middle;
+}
+
+
+/* buttons*/
+
+main .butt {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+main .butt button {
+    font-weight: 700;
+    font-size: 30px;
+    padding: 1% 2%;
+    vertical-align: center;
+    width: 15%;
+    height: 20%;
+    margin-top: 40px;
+    background: lightblue;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+}
+
+
+/* task list*/
+
+.listblock {
+    width: 50%;
+    margin: 30px auto;
+    padding: 15px 0;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    border: 5px solid #0080c0
+}
+
+
+/*heading*/
+
+main .listblock h2 {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 30px;
+}
+
+
+/*task elements*/
+
+main .list {
+    width: 90%;
+    margin: 0px auto;
+}
+
+.list li {
+    margin: 20px auto;
+    display: block;
+    padding-top: 3%;
+    height: 50px;
+    width: 95%;
+    border: 3px solid #000;
+    border-radius: 5px;
+}
+
+main .list li label {
+    margin-left: 3%;
+    vertical-align: middle;
+    font-size: 27px;
+}
+
+main .listblock ul li #check {
+    float: left;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+    -webkit-appearance: none;
+    border: none;
+    background-color: lightblue;
+    border-radius: 3px;
+    position: relative;
+}
+
+main .listblock ul li #check:checked:after {
+    content: '\2714';
+    font-size: 20px;
+    color: #444;
+    position: absolute;
+    top: 0px;
+    left: 7px;
+    color: #fff;
+}
+
+
+/*delet button*/
+
+.dltdiv {
+    margin: 30px auto;
+    width: 50%;
+}
+
+main .dltdiv button {
+    cursor: pointer;
+    height: 60px;
+    font-size: 23px;
+    border: none;
+    border-radius: 5px;
+    background-color: lightblue;
+    font-weight: 700;
+}
+
+main .dltdiv button i {
+    font-size: 23px;
+}
+
+main .dltdiv #b1 {
+    width: 175px;
+}
+
+main .dltdiv #b2 {
+    width: 210px;
+    float: right;
+}
+
+@media screen and (max-width:1000px) {
+    .dltdiv {
+        width: 95%;
+    }
+    main .dltdiv button {
+        margin: 10px auto;
+    }
+    main .dltdiv #b1 {
+        width: 100%;
+    }
+    main .dltdiv #b2 {
+        width: 100%;
+    }
+    .listblock {
+        width: 92%;
+        margin: 0 auto;
+    }
+    .list li label {
+        font-size: 10px;
+    }
+    main .butt button {
+        width: 100%;
+        margin-top: 20px;
+    }
+    main .addtask {
+        margin: 20px auto;
+        width: 95%;
+    }
+    main .searchbox {
+        width: 92%;
+    }
+    main .searchbox input {
+        width: 80%;
+        font-size: 22px;
+    }
+    main .addtask input {
+        width: 80%;
+        font-size: 22px;
+    }
+    .title {
+        font-weight: 500;
+        font-size: 40px;
+    }
+}
